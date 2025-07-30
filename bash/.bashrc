@@ -119,41 +119,11 @@ fi
 
 # CUSTOM STUFF
 
-export JAVA_HOME="/usr/lib/jvm/java-21-openjdk-amd64"
-
-alias vim="vim -S ~/.vimrc"
-
-export CRYPTO_MOUNT="~/.local/share/Cryptomator/mnt"
-alias troy="cd $CRYPTO_MOUNT/Troy"
-alias alice="cd $CRYPTO_MOUNT/Alice"
-alias samantha="cd $CRYPTO_MOUNT/Samantha"
-
-pswd () {
-  name="$1"
-  read -s password
-  eval "$name=\"$password\""
-  export "$name"
-}
-
-
-
-
-
-# CUSTOM
-
 set -o vi
 
 alias resource='source ~/.bashrc'
 
 source "$PWD/.dotfiles/bash/locations.sh"
-
-alias up="cd .."
-alias u="up"
-alias back="cd -"
-alias b="back"
-
-alias rf="rm -rf"
-
-alias cheats="notes && cd cheats && vim *"
-
+source "$PWD/.dotfiles/bash/commands.sh"
+source "$PWD/.dotfiles/bash/ark.sh"
 

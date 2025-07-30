@@ -1,0 +1,8 @@
+
+[alias]
+    a = add
+    co = commit
+    s = status
+
+
+
