@@ -1,8 +1,14 @@
 
 [alias]
     a = add
-    co = commit
+    co = commit -m
     s = status
+    ps = push
+    pl = pull
+    email = config --global user.email
+    name = config --global user.name
 
 
-
+[user]
+	name = Patrick Boyle
+	email = t.patrick.boyle@gmail.com
