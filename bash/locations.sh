@@ -1,6 +1,8 @@
 
 # Home folders
 
+alias home="cd ~"
+alias h="home"
 alias desktop="cd ~/Desktop"
 alias downloads="cd ~/Downloads"
 alias projects="cd ~/Projects"

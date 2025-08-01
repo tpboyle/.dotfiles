@@ -1,14 +1,20 @@
 
 [alias]
+    l = log
+    lo = log --oneline
     a = add
     co = commit -m
+    d = diff
+    ds = diff --staged
     s = status
+    r = remote
+    rv = remote --verbose
     ps = push
     pl = pull
     email = config --global user.email
     name = config --global user.name
 
-
 [user]
 	name = Patrick Boyle
 	email = t.patrick.boyle@gmail.com
+

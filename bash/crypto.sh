@@ -8,5 +8,5 @@ pswd () {
   export "$name"
 }
 
-source "$PWD/.dotfiles/bash/ark.locations.sh"
+source "$HOME/.dotfiles/bash/crypto.locations.sh"
 

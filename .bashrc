@@ -122,8 +122,9 @@ fi
 set -o vi
 
 alias resource='source ~/.bashrc'
+alias relink='$HOME/.dotfiles/link.sh'
 
-source "$PWD/.dotfiles/bash/locations.sh"
-source "$PWD/.dotfiles/bash/commands.sh"
-source "$PWD/.dotfiles/bash/ark.sh"
+source "$HOME/.dotfiles/bash/locations.sh"
+source "$HOME/.dotfiles/bash/commands.sh"
+source "$HOME/.dotfiles/bash/crypto.sh"
 
