@@ -7,10 +7,10 @@ alias cheats="notes && cd cheats && vim *"
 alias g='git'
 
 alias up="cd .."
-alias u="up"
-alias uu="up && up"
-alias uuu="up && up && up"
-alias uuuu="up && up && up && up"
+alias u="cd .."
+alias uu="cd ../.."
+alias uuu="cd ../../.."
+alias uuuu="cd ../../../../.."
 alias back="cd -"
 alias b="back"
 
