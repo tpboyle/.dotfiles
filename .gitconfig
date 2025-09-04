@@ -4,6 +4,9 @@
     lo = log --oneline
     a = add
     co = commit -m
+    ch = checkout
+    chb = checkout -b
+    br = branch
     d = diff
     ds = diff --staged
     s = status
@@ -15,6 +18,6 @@
     name = config --global user.name
 
 [user]
-	name = Patrick Boyle
-	email = t.patrick.boyle@gmail.com
+	name = 
+	email = 
 
