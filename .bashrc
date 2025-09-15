@@ -124,6 +124,7 @@ set -o vi
 alias resource='source ~/.bashrc'
 alias relink='$HOME/.dotfiles/link.sh'
 
+source "$HOME/.dotfiles/bash/config.sh"
 source "$HOME/.dotfiles/bash/plugins.sh"
 source "$HOME/.dotfiles/bash/locations.sh"
 source "$HOME/.dotfiles/bash/commands.sh"
