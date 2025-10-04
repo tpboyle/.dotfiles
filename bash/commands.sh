@@ -18,6 +18,8 @@ alias cl="clear"
 
 alias rf="rm -rf"
 
+alias tm="tmux ."
+
 # Android tools
 [ -f "/usr/local/bin/adb" ] && alias adb="/usr/local/bin/adb"
 [ -f "/usr/local/bin/fastboot" ] && alias fastboot="/usr/local/bin/fastboot"
