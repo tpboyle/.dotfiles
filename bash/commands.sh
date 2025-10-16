@@ -20,6 +20,8 @@ alias rf="rm -rf"
 
 alias tm="tmux ."
 
+alias raysession="pw-jack raysession"
+
 # Android tools
 [ -f "/usr/local/bin/adb" ] && alias adb="/usr/local/bin/adb"
 [ -f "/usr/local/bin/fastboot" ] && alias fastboot="/usr/local/bin/fastboot"
